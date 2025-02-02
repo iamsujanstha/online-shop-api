@@ -12,14 +12,14 @@ Follow these steps to set up and run the application:
 1. **Clone the repository:**
 
    ```sh
-   git clone git@github.com:sappChak/nestjs-ecommerce-monolith.git
-   cd nestjs-ecommerce-monolith
+   git clone https://github.com/iamsujanstha/online-shop-api.git
+   cd online-shop-api
    ```
 
 2. **Build and start the services using Docker Compose:**
 
    ```sh
-   docker compose -f docker-compose.dev.yml up --build
+   docker-compose -f docker-compose.dev.yml up --build
    ```
 
 3. **Access the API Gateway:**
